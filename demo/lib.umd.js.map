@@ -1,0 +1,1 @@
+{"version":3,"file":"lib.umd.js","sources":["../src/index.js"],"sourcesContent":["class ES6lib {\n\n  constructor() {\n    console.log('ola!')\n  }\n\n}\n\nexport default ES6lib;"],"names":["ES6lib","log"],"mappings":";;;;;;;;IAAMA,SAEJ,kBAAc;;;UACJC,GAAR,CAAY,MAAZ;EAKJ;;;;"}

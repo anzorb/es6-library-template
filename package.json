@@ -1,0 +1,26 @@
+{
+  "name": "lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/lib.js",
+  "module": "dist/lib.es.js",
+  "jsnext:main": "dist/lib.es.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --ui tdd --recursive 'src/**/*.spec.js'",
+    "build": "rollup -c rollup.config.js",
+    "start": "rollup -c rollup.config.js -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "babel-preset-es2015": "^6.22.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^3.2.0",
+    "rollup": "^0.41.4",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-eslint": "^3.0.0",
+    "rollup-watch": "^3.2.2"
+  }
+}

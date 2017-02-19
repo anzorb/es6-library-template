@@ -1,0 +1,40 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.log
+*.orig
+*.rej
+*.sass-cache
+*.swo
+*.swp
+*.vi
+*~
+
+#IDEs
+.idea
+
+# OS or Editor folders
+.cache
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.DS_Store?
+.project
+.settings
+.tmproj
+nbproject
+npm-debug.log
+Thumbs.db
+._*
+.Spotlight-V100
+.Trashes
+
+# Folders to ignore
+.tmp
+dist
+node_modules
+bower_components
+jspm_packages
+
+#Unit test coverage
+coverage
